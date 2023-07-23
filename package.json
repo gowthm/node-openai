@@ -1,0 +1,30 @@
+{
+  "name": "node-openai",
+  "version": "1.0.0",
+  "description": "openai integration with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --exit-child src/index.ts",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "node",
+    "ts",
+    "openai"
+  ],
+  "author": "gowtham",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.4.4",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "openai": "^3.3.0"
+  }
+}
